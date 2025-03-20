@@ -9,7 +9,7 @@ def guess_number():
         guess = int(input("Devinez le nombre entre 1 et 100 : "))
 
         if guess == number:
-            print("Bravo ! Vous avez trouvé le nombre en", attempts, "essais.")
+            print("Super ! Vous avez trouvé le nombre en", attempts, "essais.")
             break
         elif guess < number:
             print("Trop petit !")
