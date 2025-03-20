@@ -6,7 +6,7 @@ def guess_number():
     attempts = 0
 
     while True:
-        guess = input("Devinez le nombre entre 1 et 100 : ")
+        guess = int(input("Devinez le nombre entre 1 et 100 : "))
 
         if guess == number:
             print("Bravo ! Vous avez trouvé le nombre en", attempts, "essais.")
@@ -17,5 +17,6 @@ def guess_number():
             print("Trop grand !")
 
         attempts += 1
+    return 0
 
 guess_number()
